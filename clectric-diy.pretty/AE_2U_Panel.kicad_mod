@@ -1,4 +1,4 @@
-(footprint "AE_2U_PANEL"
+(footprint "AE_2U_Panel"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "AE_2U_PANEL"
+	(property "Value" "AE_2U_Panel"
 		(at 30.2 -2.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
