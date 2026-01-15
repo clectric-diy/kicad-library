@@ -1,3 +1,3 @@
-# clectric-diy.pretty
-KiCad Library for clectric.diy Projects
+# kicad-libraries
+KiCad Libraries for clectric.diy Projects
 

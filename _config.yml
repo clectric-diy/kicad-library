@@ -1,5 +1,5 @@
-title: "clectric-diy.pretty"
-description: "KiCad Library for clectric.diy projects"
+title: "kicad-libraries"
+description: "KiCad Libraries for clectric.diy projects"
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
 - jekyll-remote-theme
