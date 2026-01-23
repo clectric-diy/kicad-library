@@ -1,35 +1,243 @@
-(module easyeda2kicad:LED-SMD_4P-L5.0-W5.0-TL-1 (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "LED-SMD_4P-L5.0-W5.0-TL-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.6 0)
+		(layer "F.SilkS")
+		(uuid "709f19bc-f687-4999-b9d5-ef158574f892")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_4P-L5.0-W5.0-TL-1"
+		(at 0 5.6 0)
+		(layer "F.Fab")
+		(uuid "1306fb6d-3f01-4235-b388-e1233c3de293")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b896c992-ebf4-49d3-8cff-381b7f71240b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0023c8b-a081-48f2-883e-8a7a2da60158")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -5.6) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98dca166-2b60-438a-82b1-48c203626616")
 	)
-	(fp_text value LED-SMD_4P-L5.0-W5.0-TL-1 (at 0 5.6) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.5 0.77)
+		(end -2.5 -0.77)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62727b45-f8d0-472a-bc8a-b19c5306a990")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.5 2.5)
+		(end -2.5 2.32)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4152ec72-7ed4-4a47-a0e5-3382843db708")
 	)
-	(fp_line (start 2.50 2.28) (end 2.50 2.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start 2.50 2.50) (end -2.50 2.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start -2.50 2.50) (end -2.50 2.32) (layer F.SilkS) (width 0.25))
-	(fp_line (start 2.50 -2.50) (end 2.50 -2.27) (layer F.SilkS) (width 0.25))
-	(fp_line (start -2.49 -2.27) (end -2.50 -2.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start -2.50 -2.50) (end 2.50 -2.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start 2.50 -0.77) (end 2.50 0.77) (layer F.SilkS) (width 0.25))
-	(fp_line (start -2.50 0.77) (end -2.50 -0.77) (layer F.SilkS) (width 0.25))
-	(fp_line (start 1.50 1.80) (end 1.50 2.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start 1.50 2.50) (end 0.80 2.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start 0.80 2.50) (end 1.50 1.80) (layer F.SilkS) (width 0.25))
-	(pad 3 smd rect (at 2.50 1.60 180.00) (size 1.80 1.00) (layers F.Cu F.Paste F.Mask))
-	(pad 4 smd rect (at 2.50 -1.60 180.00) (size 1.80 1.00) (layers F.Cu F.Paste F.Mask))
-	(pad 1 smd rect (at -2.50 -1.60 180.00) (size 1.80 1.00) (layers F.Cu F.Paste F.Mask))
-	(pad 2 smd rect (at -2.50 1.60 180.00) (size 1.80 1.00) (layers F.Cu F.Paste F.Mask))
-	(fp_circle (center -2.70 -2.50) (end -2.67 -2.50) (layer F.Fab) (width 0.06))
-	(fp_circle (center 0.00 0.00) (end 1.50 0.00) (layer F.SilkS) (width 0.25))
-	(fp_circle (center -2.90 -2.40) (end -2.80 -2.40) (layer F.SilkS) (width 0.25))
-	(model "GitHub/clectric-diy/kicad-library/clectric-diy.3dshapes/LED-SMD_4P-L5.0-W5.0-H1.6-P3.2.wrl"
-		(offset (xyz 0.000 -0.000 -0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 180))
+	(fp_line
+		(start -2.49 -2.27)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "373cc091-100e-4d46-8fe4-89e2d4c12a16")
+	)
+	(fp_line
+		(start 0.8 2.5)
+		(end 1.5 1.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7c9e1a4-add9-4b2e-a30d-f37b335e3850")
+	)
+	(fp_line
+		(start 1.5 1.8)
+		(end 1.5 2.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c813aa79-995d-4df0-9507-7048a0ac5afb")
+	)
+	(fp_line
+		(start 1.5 2.5)
+		(end 0.8 2.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78084f54-bc2f-44eb-9901-3c4e6188eb8c")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end 2.5 -2.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb1f1485-8d8c-4c4f-9f48-2b5ca561ec14")
+	)
+	(fp_line
+		(start 2.5 -0.77)
+		(end 2.5 0.77)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdc754dd-dc3a-414c-85f6-c16d16b4bc9c")
+	)
+	(fp_line
+		(start 2.5 2.28)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb4bc650-2d4e-4fdf-af93-c9143b176458")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93332342-793d-4cf8-adf4-765f9ef50e77")
+	)
+	(fp_circle
+		(center -2.9 -2.4)
+		(end -2.8 -2.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b09e482c-d7d1-4659-83e1-395c5e007238")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ac4d2404-104c-4357-8f80-08a0dcf83c18")
+	)
+	(fp_circle
+		(center -2.7 -2.5)
+		(end -2.67 -2.5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8282a527-4cb6-4e9d-8194-b1892aaf3e58")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d9ba728e-313c-4b94-809e-ae8ee4827c46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.5 -1.6 180)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f9f5645f-2244-4fa2-83ea-445a234217d7")
+	)
+	(pad "2" smd rect
+		(at -2.5 1.6 180)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "56b42003-67f9-4d3c-a4b1-9fe5b313f94c")
+	)
+	(pad "3" smd rect
+		(at 2.5 1.6 180)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "50ce333c-8d36-469b-a448-8015ddf4a644")
+	)
+	(pad "4" smd rect
+		(at 2.5 -1.6 180)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3d3e18ff-f813-4402-a6b3-3c8f4a9f39bf")
+	)
+	(embedded_fonts no)
+	(model "${CLECTRIC_DIY}/clectric-diy.3dshapes/LED-SMD_4P-L5.0-W5.0-H1.6-P3.2.step"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
 	)
 )
