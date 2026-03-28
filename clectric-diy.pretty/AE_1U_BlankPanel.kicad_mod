@@ -1,0 +1,103 @@
+(footprint "AE_1U_BlankPanel"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c33d712b-f08e-473b-9e86-714c4f294d36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AE_1U_BlankPanel"
+		(at 0 55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "170fd982-29e0-4a41-8a48-8a3ddf91f134")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c00d6378-f336-4eff-ada6-ee5d880caf98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7e7cd64-0f36-4898-8824-f04bd37c7af9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -12.5 -50.5)
+		(end 12.5 50.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "79cba783-f339-4924-8dc1-e4de8bf106e1")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -47.1)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "00cdd1fe-fdc8-4809-a07c-8925aa67b62f")
+	)
+	(pad "2" thru_hole circle
+		(at 0 47.1 90)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ece2aaed-322c-4d00-a9bc-4a72dfe2e2d5")
+	)
+	(group ""
+		(uuid "1f2dd65c-3510-4f05-8d81-977cb460e87f")
+		(members "00cdd1fe-fdc8-4809-a07c-8925aa67b62f" "79cba783-f339-4924-8dc1-e4de8bf106e1"
+			"ece2aaed-322c-4d00-a9bc-4a72dfe2e2d5"
+		)
+	)
+	(embedded_fonts no)
+	(model "${CLECTRIC_DIY}/clectric-diy.3dshapes/AE-1U_BlankPanel.step"
+		(offset
+			(xyz 0 0 8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

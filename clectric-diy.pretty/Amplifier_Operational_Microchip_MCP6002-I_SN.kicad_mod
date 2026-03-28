@@ -1,0 +1,208 @@
+(footprint "Amplifier_Operational_Microchip_MCP6002-I_SN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.57 0)
+		(layer "F.SilkS")
+		(uuid "26efbda4-7d92-4568-b3f6-559ea5d94eb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Amplifier_Operational_Microchip_MCP6002-I_SN"
+		(at 0 6.57 0)
+		(layer "F.Fab")
+		(uuid "d823bb57-8224-41e3-99b4-c6a8aeaa02af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b8d0e06-0deb-43fa-bcab-442bfc1d2e75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95d812b4-99aa-41b2-b06f-d47486e42ef6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.53 -1.52)
+		(end 2.53 -1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c4e70a0-fa51-4acd-a016-4cf84856aa0b")
+	)
+	(fp_line
+		(start -2.53 1.52)
+		(end -2.53 -1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09b136ed-2f2a-4596-a060-1e10d65d0039")
+	)
+	(fp_line
+		(start 2.53 -1.52)
+		(end 2.53 1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38c7b6f0-f7b5-4e5f-9e64-ad4f854ab6e2")
+	)
+	(fp_line
+		(start 2.53 1.52)
+		(end -2.53 1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa6cdf48-5b65-4ff4-b5fb-a1080905e2b6")
+	)
+	(fp_circle
+		(center -2.65 2.77)
+		(end -2.5 2.77)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cef708ea-39c2-4658-882a-690e4429c60c")
+	)
+	(fp_circle
+		(center -1.91 0.77)
+		(end -1.76 0.77)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "94895a15-5a43-43f6-9817-6a97ed6af2a8")
+	)
+	(fp_circle
+		(center -1.91 3.4)
+		(end -1.76 3.4)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "1c612d4f-639c-4774-a852-3c54efb2dbfe")
+	)
+	(fp_circle
+		(center -2.45 3)
+		(end -2.42 3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a2e03a5c-00e0-4929-b622-500b12bc078e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bcac4f7a-31a4-4abf-ab58-27211f8a2202")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.91 2.57)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cf44366a-b5a9-4359-9f05-0f5eca4f1dcf")
+	)
+	(pad "2" smd oval
+		(at -0.63 2.57)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fe44aee1-bc4b-474c-a553-eeaaff59ce70")
+	)
+	(pad "3" smd oval
+		(at 0.63 2.57)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "152ed259-d744-4027-9b27-625f0aa3d43c")
+	)
+	(pad "4" smd oval
+		(at 1.9 2.57)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9bb26e41-ae08-473d-88cd-77d927e5fca4")
+	)
+	(pad "5" smd oval
+		(at 1.9 -2.57)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0d96e442-7b17-4622-a0b6-afb38a4c11d0")
+	)
+	(pad "6" smd oval
+		(at 0.63 -2.57)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f4e9126-bcc5-4462-bfd1-dfaec310bd72")
+	)
+	(pad "7" smd oval
+		(at -0.63 -2.57)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f4d10c52-1011-4783-bfdf-949894e398bd")
+	)
+	(pad "8" smd oval
+		(at -1.91 -2.57)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "50cc16e7-5f0a-44ff-be04-f55c7176de8b")
+	)
+	(embedded_fonts no)
+	(model "${CLECTRIC_DIY}/clectric-diy.3dshapes/Amplifier_Operational_Microchip_MCP6002-I_SN.step"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

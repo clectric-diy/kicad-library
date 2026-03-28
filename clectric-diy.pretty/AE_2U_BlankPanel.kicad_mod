@@ -1,0 +1,113 @@
+(footprint "AE_2U_BlankPanel"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c33d712b-f08e-473b-9e86-714c4f294d36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AE_2U_BlankPanel"
+		(at 0 55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "170fd982-29e0-4a41-8a48-8a3ddf91f134")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c00d6378-f336-4eff-ada6-ee5d880caf98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7e7cd64-0f36-4898-8824-f04bd37c7af9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -25 -50.5)
+		(end 25 50.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "79cba783-f339-4924-8dc1-e4de8bf106e1")
+	)
+	(pad "1" thru_hole circle
+		(at -12.7 -47.1)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13962c5d-8011-42a8-b4b8-66bf037f1854")
+	)
+	(pad "2" thru_hole circle
+		(at 12.7 -47.1)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c94c65b3-a5d0-4f16-83a6-f25b2e408298")
+	)
+	(pad "3" thru_hole circle
+		(at -12.7 47.1)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc1302f3-766f-4e8b-ad3b-0453fcd74a9c")
+	)
+	(pad "4" thru_hole circle
+		(at 12.7 47.1)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1002eb67-b6b5-46ca-b396-896881d9c1aa")
+	)
+	(embedded_fonts no)
+	(model "${CLECTRIC_DIY}/clectric-diy.3dshapes/AE-2U_BlankPanel.step"
+		(offset
+			(xyz 0 0 8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,131 @@
+(footprint "LED_ARGB_Amicc_A-SP1943B1GHR6C-C01-2T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.42 0)
+		(layer "F.SilkS")
+		(uuid "bacd1645-b445-4975-9b3b-10d9685a07b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_ARGB_Amicc_A-SP1943B1GHR6C-C01-2T"
+		(at 0 4.42 0)
+		(layer "F.Fab")
+		(uuid "31b87f50-0c48-45b3-bc70-4b1151e4406b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18e0e302-58cf-4391-b94f-3f59081868fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ea5e20e-79c1-4cef-acaa-2e77d81c2580")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 -1.01)
+		(end 0.8 -1.01)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7780b29-a59e-4997-8cc6-15af49372b96")
+	)
+	(fp_line
+		(start -0.8 1)
+		(end 0.8 1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "716d2cb5-0758-4466-a3c4-c014a9d8ccad")
+	)
+	(fp_circle
+		(center -0.8 0.75)
+		(end -0.77 0.75)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1b3b9e06-6692-432c-af61-eb690eba0950")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "64a84ee3-3177-48a7-8770-46ebc160d61f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.72 0.42 180)
+		(size 0.85 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5da64455-25f7-4f3a-bb42-1493cbac91a9")
+	)
+	(pad "2" smd rect
+		(at -0.72 -0.42 180)
+		(size 0.85 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "342e82ec-6571-4a58-8cd0-5afc82262895")
+	)
+	(pad "3" smd rect
+		(at 0.72 -0.42 180)
+		(size 0.85 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60bb4285-3e10-4446-8d96-0fb8081bcf4d")
+	)
+	(pad "4" smd rect
+		(at 0.72 0.42 180)
+		(size 0.85 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e78f4c2b-94ba-4406-97f7-dda270f06f76")
+	)
+	(embedded_fonts no)
+	(model "${CLECTRIC_DIY}/clectric-diy.3dshapes/LED-SMD_4P-L1.6-W1.5-BL_A-SP1943B1GHR6C-C01-2T.step"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
